@@ -7,38 +7,64 @@ public class bartek {
         Scanner in = new Scanner(new File("Judge Data/bartek.dat"));
         while (in.hasNext()) {
             int size = in.nextInt();
-            for (int i = 0; i < size - 1; i++) {
+            int dimensions = size + (size - 2) * 2 + 2;
+            String[][] octagon = new String[dimensions][dimensions];
+            int innerSpace = size;
+            int outerSpace = size - 1;
+            int innerCounter = size - 2;
+            for (int i = 0; i < size; i++) {
+                for (int j = 0; j < outerSpace; j++) {
+                    System.out.print(" ");
+                }
+                if (i == 0) {
+                    for (int j = 0; j < size; j++) {
+                        System.out.print("*");
+                    }
+                } else {
+                    System.out.print("*");
+                    for (int j = 0; j < innerSpace; j++) {
+                        System.out.print(" ");
+                    }
+                    if (i != 0) System.out.print("*");
+                    innerSpace += 2;
+                }
+                outerSpace -= 1;
+                System.out.println();
+            }
+            innerSpace -= 2;
+            for (int i = 0; i < size - 2; i++) {
+                System.out.print("*");
+                for (int j = 0; j < innerSpace; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                System.out.println();
+            }
+            for (int i = 0; i < dimensions - ((size - 2) + size) - 1; i++) {
+                outerSpace++;
+                for (int j = 0; j < outerSpace; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                for (int j = 0; j < innerSpace; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                innerSpace -= 2;
+                System.out.println();
+            }
+            outerSpace++;
+            for (int j = 0; j < outerSpace; j++) {
                 System.out.print(" ");
             }
             for (int i = 0; i < size; i++) {
                 System.out.print("*");
             }
-            for (int i = 0; i < size - 1; i++) {
+            for (int j = 0; j < outerSpace; j++) {
                 System.out.print(" ");
             }
             System.out.println();
-            int bSpaceNum = 0;
-            for (int i = 0; i < size - 1; i++) {
-                String space = "";
-                for (int j = i + 1; j < size - (i + 1); j++) {
-                    space += " ";
-                }
-                System.out.print(space + "*");
-                for (int j = 0; j < size + bSpaceNum; j++) {
-                    System.out.print(" ");
-                }
-                bSpaceNum += 2;
-                System.out.print("*" + space);
-                System.out.println();
-            }
-            for (int i = 0; i < size - 2; i++) {
-                System.out.print("*");
-                for (int j = 0; j < size + 2; j++) {
-                    System.out.print(" ");
-                }
-                System.out.print("*");
-                System.out.println();
-            }
+            System.out.println();
         }
     }
 }
