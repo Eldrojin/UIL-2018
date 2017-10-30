@@ -8,7 +8,7 @@ public class Cleanup {
         while(in.hasNextLine())
         {
             String [] arr = in.nextLine().split(" - ");
-//            String [
+
         }
     }
 }
