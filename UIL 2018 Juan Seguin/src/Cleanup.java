@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Cleanup {
     static int hours = 0;
+    static int[] path;
     public static void main(String[] args) throws IOException{
         Scanner in = new Scanner(new File("cleanup.dat"));
         while(in.hasNextLine())
@@ -20,50 +21,53 @@ public class Cleanup {
             for (int i = 0; i < path.length; i++) {
                 path[i] = new Integer(input[i]);
             }
+            System.out.println(Arrays.toString(path));
+            Cleanup.path = path;
+            cleanup(new Integer(input[input.length - 1]), 0, 0);
             System.out.println(hours);
         }
     }
 
-    public static void cleanup(int[] path, int maxContain, int container, int pos) {
-        if (pos == 0) {
-            boolean full = false;
-            for (int i = 0; i < path.length; i++) {
-                if (path[i] != 0) {
-                    full = true;
-                }
-            }
-            if (container <= 0) {
-                container = maxContain;
-                if (full) {
-                     cleanup(path, maxContain, container,pos + 1);
-                     hours+=2;
-                }
-            }
-            if (full) {
-                 cleanup(path, maxContain, container,pos + 1);
-                 hours++;
-            }
+    public static void cleanup(int cap, int load, int pos) {
+        boolean b = false;
+        for (int i : path) {
+            if (i != 0)
+                b = true;
         }
-        if (pos == path.length - 1) {
-            if (path[pos] > 0) {
-                container -= path[pos];
-                if (container < 0) {
-                    path[pos] += -container;
-                    container = maxContain;
-                }
-                 cleanup(path, maxContain, container, pos - 1);
-                hours++;
-            } else if (pos > 0) {
-                if (path[pos] > 0) {
-                    container -= path[pos];
-                    if (container < 0) {
-                        path[pos] += -container;
-                        container = maxContain;
-                         cleanup(path, maxContain, container, pos - 1);
-                         hours++;
-                    }
-                     cleanup(path, maxContain, container,pos + 1);
+        if (b) {
+            return;
+        }
+        if (pos < path.length && pos >= 0) {
+            if (load == cap) {
+                if (pos == 0) {
+                    load = 0;
+                    cleanup(cap, load, pos + 1);
+                } else {
                     hours++;
+                    cleanup(cap, load, pos - 1);
+                }
+            } else {
+                int diff = 0;
+                load += path[pos];
+                diff = path[pos];
+                if (load == cap) {
+                    hours+= 2;
+                    cleanup(cap, load, pos - 1);
+                } else if (load > cap) {
+                    diff = load - cap;
+                    path[pos] = diff;
+                    hours += 2;
+                    load = cap;
+                    cleanup(cap, load, pos-1);
+                } else if (pos == path.length - 1) {
+                    hours+=2;
+                    load += path[pos];
+                    path[pos] -= diff;
+                    cleanup(cap, load, pos-1);
+                } else {
+                    path[pos] -= diff;
+                    hours++;
+                    cleanup(cap, load, pos + 1);
                 }
             }
         }
