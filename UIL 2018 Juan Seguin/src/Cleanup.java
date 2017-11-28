@@ -29,13 +29,15 @@ public class Cleanup {
     }
 
     public static void cleanup(int cap, int load, int pos) {
-        boolean b = false;
-        for (int i : path) {
-            if (i != 0)
-                b = true;
-        }
-        if (b) {
-            return;
+        if (pos == 0) {
+            boolean b = true;
+            for (int i : path) {
+                if (i != 0)
+                    b = false;
+            }
+            if (b) {
+                return;
+            }
         }
         if (pos < path.length && pos >= 0) {
             if (load == cap) {
