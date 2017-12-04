@@ -29,12 +29,32 @@ public class Cleanup {
 
     public static int cleanup(int cap, int load, int pos) {
         if (pos < path.length && pos >= 0) {
+            if (pos == 0 && load == cap) {
+                for (int i : path) {
+                    if (i != 0)
+                        return 1 + cleanup(cap, 0, pos + 1);
+                }
+                return 1;
+            }
             if (load == cap) {
-                return 2;
+                return 1 + cleanup(cap, load, pos - 1);
             }
-            if (pos == path.length - 1) {
-                return 2;
+            load += path[pos];
+            path[pos] = 0;
+            if (load >= cap) {
+                path[pos] = load - cap;
+                load = cap;
+                if (pos == path.length - 1) {
+                    if (path[pos] == 0) {
+                        return 2 + cleanup(cap, load, pos - 1);
+                    }
+                }
+                return 2 + cleanup(cap, load, pos - 1);
+            } else if (pos == path.length - 1) {
+                return 2 + cleanup(cap, cap, pos - 1);
             }
+            return 1 + cleanup(cap, load, pos + 1);
         }
+        return 2;
     }
 }
