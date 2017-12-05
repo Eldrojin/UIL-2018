@@ -7,7 +7,7 @@ public class Cleanup {
     static int hours = 0;
     static int[] path;
     public static void main(String[] args) throws IOException{
-        Scanner in = new Scanner(new File("cleanup.dat"));
+        Scanner in = new Scanner(new File("judge/cleanup.dat"));
         while(in.hasNextLine())
         {
             String line = in.nextLine();
@@ -21,9 +21,9 @@ public class Cleanup {
             for (int i = 0; i < path.length; i++) {
                 path[i] = new Integer(input[i]);
             }
-            System.out.println(Arrays.toString(path));
+//            System.out.println(Arrays.toString(path));
             Cleanup.path = path;
-            System.out.println(cleanup(new Integer(input[input.length - 1]), 0, 0));
+            System.out.println("It will take " + cleanup(new Integer(input[input.length - 1]), 0, 0) + " hour(s) to clear the site");
         }
     }
 
@@ -34,7 +34,7 @@ public class Cleanup {
                     if (i != 0)
                         return 1 + cleanup(cap, 0, pos + 1);
                 }
-                return 1;
+                return 0;
             }
             if (load == cap) {
                 return 1 + cleanup(cap, load, pos - 1);
@@ -46,15 +46,15 @@ public class Cleanup {
                 load = cap;
                 if (pos == path.length - 1) {
                     if (path[pos] == 0) {
-                        return 2 + cleanup(cap, load, pos - 1);
+                        return 3 + cleanup(cap, load, pos - 1);
                     }
                 }
-                return 2 + cleanup(cap, load, pos - 1);
+                return 3 + cleanup(cap, load, pos - 1);
             } else if (pos == path.length - 1) {
-                return 2 + cleanup(cap, cap, pos - 1);
+                return 3 + cleanup(cap, cap, pos - 1);
             }
             return 1 + cleanup(cap, load, pos + 1);
         }
-        return 2;
+        return 0;
     }
 }
