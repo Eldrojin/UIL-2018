@@ -2,112 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9abb3869-3394-4690-a53a-1aedfa564203" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/Mansfield HS.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Coaches.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Coins.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Coinsagain.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/DNA.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Encryption.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Factorial.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Factors.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Harmonic.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Polygon.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Roads.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Team.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/Tiling.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/coaches.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/coins.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/coins.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/coinsagain.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/coinsagain.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/dna.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/dna.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/encryption.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/encryption.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/factorial.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/factorial.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/factors.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/factors.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/harmonic.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/harmonic.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/polygon.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/polygon.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/roads.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/roads.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/team.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/team.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/tiling.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/judge_dat_out/tiling.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/packet_2_2017.doc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/packet_2_2017_JUDGES.doc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Coaches.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Coins.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Coinsagain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/DNA.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Encryption.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Factorial.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Factors.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Harmonic.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Polygon.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Roads.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Team.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/solutions/Tiling.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/src/Coins.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/src/Factorial.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/coaches.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/coins.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/coins.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/coinsagain.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/coinsagain.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/dna.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/dna.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/dryrun.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/encryption.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/encryption.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/factorial.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/factorial.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/factors.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/factors.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/harmonic.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/harmonic.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/polygon.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/polygon.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/roads.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/roads.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/team.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/team.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/tiling.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student - orig w out files/tiling.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/coins.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/coinsagain.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/dna.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/dryrun.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/encryption.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/factorial.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/factors.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/harmonic.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/polygon.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/roads.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/team.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Mansfield HS/student/tiling.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/Packet Final.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/chore.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/counting.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/hospital.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/loading.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/lucky.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/paints.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/pigeon.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/stack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/sticky.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/taxi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/trap101.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Southlake Carroll/src/Sample Solutions/weight.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Southlake Carroll/.idea/misc.xml" afterPath="$PROJECT_DIR$/Southlake Carroll/.idea/misc.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -124,10 +19,9 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1515296385871" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1515296385871" expanded="false" signature="113:401" ph="..." />
-                <marker date="1515296385871" expanded="true" signature="445:452" ph="{}" />
-                <marker date="1515296385871" expanded="true" signature="516:1399" ph="{...}" />
+                <marker date="1508515967294" expanded="false" signature="3:117" ph="/.../" />
+                <marker date="1508515967294" expanded="true" signature="161:184" ph="{}" />
+                <marker date="1508515967294" expanded="true" signature="266:289" ph="{}" />
               </folding>
             </state>
           </provider>
@@ -136,11 +30,6 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Long Nguyen (Home)" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -169,20 +58,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="UIL-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="UIL-2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIL-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIL-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Mansfield HS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UIL-2018" type="b2602c69:ProjectViewProjectNode" />
@@ -214,11 +96,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mansfield HS 2018" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -332,7 +216,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -346,8 +231,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18008785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -365,10 +249,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start Mansfield HS Packet and Finish Coins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start Mansfield HS Packet and Finish Coins" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -379,10 +259,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1515296385871" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515296385871" expanded="false" signature="113:401" ph="..." />
-            <marker date="1515296385871" expanded="true" signature="445:452" ph="{}" />
-            <marker date="1515296385871" expanded="true" signature="516:1399" ph="{...}" />
+            <marker date="1508515967294" expanded="false" signature="3:117" ph="/.../" />
+            <marker date="1508515967294" expanded="true" signature="161:184" ph="{}" />
+            <marker date="1508515967294" expanded="true" signature="266:289" ph="{}" />
           </folding>
         </state>
       </provider>
@@ -392,10 +271,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1515296385871" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515296385871" expanded="false" signature="113:401" ph="..." />
-            <marker date="1515296385871" expanded="true" signature="445:452" ph="{}" />
-            <marker date="1515296385871" expanded="true" signature="516:1399" ph="{...}" />
+            <marker date="1508515967294" expanded="false" signature="3:117" ph="/.../" />
+            <marker date="1508515967294" expanded="true" signature="161:184" ph="{}" />
+            <marker date="1508515967294" expanded="true" signature="266:289" ph="{}" />
           </folding>
         </state>
       </provider>
@@ -405,10 +283,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1515296385871" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515296385871" expanded="false" signature="113:401" ph="..." />
-            <marker date="1515296385871" expanded="true" signature="445:452" ph="{}" />
-            <marker date="1515296385871" expanded="true" signature="516:1399" ph="{...}" />
+            <marker date="1508515967294" expanded="false" signature="3:117" ph="/.../" />
+            <marker date="1508515967294" expanded="true" signature="161:184" ph="{}" />
+            <marker date="1508515967294" expanded="true" signature="266:289" ph="{}" />
           </folding>
         </state>
       </provider>
@@ -418,10 +295,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1515296385871" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515296385871" expanded="false" signature="113:401" ph="..." />
-            <marker date="1515296385871" expanded="true" signature="445:452" ph="{}" />
-            <marker date="1515296385871" expanded="true" signature="516:1399" ph="{...}" />
+            <marker date="1508515967294" expanded="false" signature="3:117" ph="/.../" />
+            <marker date="1508515967294" expanded="true" signature="161:184" ph="{}" />
+            <marker date="1508515967294" expanded="true" signature="266:289" ph="{}" />
           </folding>
         </state>
       </provider>
@@ -431,10 +307,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1515296385871" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515296385871" expanded="false" signature="113:401" ph="..." />
-            <marker date="1515296385871" expanded="true" signature="445:452" ph="{}" />
-            <marker date="1515296385871" expanded="true" signature="516:1399" ph="{...}" />
+            <marker date="1508515967294" expanded="false" signature="3:117" ph="/.../" />
+            <marker date="1508515967294" expanded="true" signature="161:184" ph="{}" />
+            <marker date="1508515967294" expanded="true" signature="266:289" ph="{}" />
           </folding>
         </state>
       </provider>
@@ -444,10 +319,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1515296385871" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515296385871" expanded="false" signature="113:401" ph="..." />
-            <marker date="1515296385871" expanded="true" signature="445:452" ph="{}" />
-            <marker date="1515296385871" expanded="true" signature="516:1399" ph="{...}" />
+            <marker date="1508515967294" expanded="false" signature="3:117" ph="/.../" />
+            <marker date="1508515967294" expanded="true" signature="161:184" ph="{}" />
+            <marker date="1508515967294" expanded="true" signature="266:289" ph="{}" />
           </folding>
         </state>
       </provider>
